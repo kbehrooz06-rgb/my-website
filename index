@@ -1,2 +1,256 @@
+حتماً. فقط کد:
 
-**: ```html <!DOCTYPE html> <html lang="fa" dir="rtl"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>منظوره</head> <title> <h1>به وب سایت من خوش آمدید</h1> <p> این اولین وب سایت است که با GitHub ساخته شده است. </p> </body> </html> ``` ###
+```html
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>آموزشگاه شفق</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Tahoma, Arial, sans-serif;
+            background: #f5f7fa;
+            color: #222;
+        }
+
+        header {
+            background: #1d4ed8;
+            color: white;
+            padding: 25px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 32px;
+        }
+
+        header p {
+            margin-top: 10px;
+            font-size: 17px;
+        }
+
+        nav {
+            background: white;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #1d4ed8;
+            margin: 0 12px;
+            font-weight: bold;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 60px 20px;
+            background: #e8f0ff;
+        }
+
+        .hero h2 {
+            font-size: 30px;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            line-height: 2;
+        }
+
+        .button {
+            display: inline-block;
+            background: #1d4ed8;
+            color: white;
+            padding: 13px 28px;
+            border-radius: 8px;
+            text-decoration: none;
+            margin-top: 15px;
+        }
+
+        .section {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+
+        .section h2 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .cards {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: white;
+            width: 260px;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+            text-align: center;
+        }
+
+        .card h3 {
+            color: #1d4ed8;
+        }
+
+        .notice {
+            background: white;
+            padding: 20px;
+            border-right: 5px solid #1d4ed8;
+            margin-bottom: 15px;
+            border-radius: 8px;
+        }
+
+        footer {
+            background: #172033;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            margin-top: 50px;
+        }
+
+        @media (max-width: 600px) {
+
+            nav a {
+                display: block;
+                margin: 10px;
+            }
+
+            .hero h2 {
+                font-size: 24px;
+            }
+
+            .card {
+                width: 85%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>آموزشگاه شفق</h1>
+        <p>آموزش، رشد و آینده‌ای روشن</p>
+    </header>
+
+    <nav>
+        <a href="#">صفحه اصلی</a>
+        <a href="#courses">دروس</a>
+        <a href="#teachers">اساتید</a>
+        <a href="#notices">اطلاعیه‌ها</a>
+        <a href="#register">ثبت‌نام</a>
+    </nav>
+
+    <section class="hero">
+
+        <h2>به آموزشگاه شفق خوش آمدید</h2>
+
+        <p>
+            آموزشگاه شفق با هدف ارائه آموزش‌های باکیفیت
+            و فراهم کردن فرصت یادگیری برای علاقه‌مندان فعالیت می‌کند.
+        </p>
+
+        <a class="button" href="#register">
+            ثبت‌نام در دوره‌ها
+        </a>
+
+    </section>
+
+    <section class="section" id="courses">
+
+        <h2>📚 دروس آموزشی</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>ریاضیات</h3>
+                <p>استاد: مهدیه کریمی</p>
+            </div>
+
+            <div class="card">
+                <h3>علوم</h3>
+                <p>استاد: سهیلا یگانه</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="section" id="teachers">
+
+        <h2>👩‍🏫 اساتید</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>مهدیه کریمی</h3>
+                <p>مدرس ریاضیات</p>
+            </div>
+
+            <div class="card">
+                <h3>سهیلا یگانه</h3>
+                <p>مدرس علوم</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="section" id="notices">
+
+        <h2>📢 اطلاعیه‌ها و تبلیغات</h2>
+
+        <div class="notice">
+            <h3>ثبت‌نام دوره‌های آموزشی</h3>
+            <p>
+                ثبت‌نام علاقه‌مندان در دوره‌های آموزشی آموزشگاه شفق آغاز شد.
+            </p>
+        </div>
+
+    </section>
+
+    <section class="section" id="register">
+
+        <h2>📝 ثبت‌نام</h2>
+
+        <div class="card" style="margin:auto;">
+
+            <p>
+                برای ثبت‌نام در دوره‌های آموزشی
+                روی دکمه زیر کلیک کنید.
+            </p>
+
+            <a class="button" href="#">
+                فرم ثبت‌نام
+            </a>
+
+        </div>
+
+    </section>
+
+    <footer>
+
+        <p>آموزشگاه شفق</p>
+
+        <p>تمامی حقوق محفوظ است.</p>
+
+    </footer>
+
+</body>
+
+</html>
+```
