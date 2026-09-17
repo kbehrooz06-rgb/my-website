@@ -1,1 +1,102 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>آموزشگاه شفق</title>
+<style>
+body{margin:0;font-family:Tahoma,Arial,sans-serif;background:#f5f7fb;color:#222}
+header{background:#4f46e5;color:white;text-align:center;padding:40px 20px}
+header h1{margin:0;font-size:36px}
+header p{font-size:18px}
+nav{background:white;text-align:center;padding:18px;box-shadow:0 2px 8px #ddd}
+nav a{color:#333;text-decoration:none;margin:0 12px;font-weight:bold}
+.container{max-width:1100px;margin:auto;padding:25px}
+.hero,.card{background:white;border-radius:15px;padding:30px;margin-top:25px;box-shadow:0 3px 12px #ddd}
+.hero{text-align:center}
+h2{color:#4f46e5;text-align:center}
+.cards{display:flex;flex-wrap:wrap;gap:20px;justify-content:center}
+.card{width:280px;text-align:center}
+.card h3{color:#4f46e5}
+.button{display:inline-block;background:#4f46e5;color:white;padding:12px 25px;border-radius:8px;text-decoration:none;margin-top:15px}
+footer{background:#222;color:white;text-align:center;padding:25px;margin-top:40px}
+</style>
+</head>
+<body>
 
+<header>
+<h1>آموزشگاه شفق</h1>
+<p>آموزش، رشد و آینده‌ای روشن</p>
+</header>
+
+<nav>
+<a href="#home">صفحه اصلی</a>
+<a href="#courses">دروس</a>
+<a href="#teachers">اساتید</a>
+<a href="#notices">اطلاعیه‌ها</a>
+<a href="#register">ثبت‌نام</a>
+</nav>
+
+<div class="container">
+
+<section id="home" class="hero">
+<h2>به آموزشگاه شفق خوش آمدید</h2>
+<p>در آموزشگاه شفق محیطی مناسب برای یادگیری و رشد علمی دانش‌آموزان فراهم می‌کنیم.</p>
+<a class="button" href="#register">ثبت‌نام در دوره‌ها</a>
+</section>
+
+<section id="courses">
+<h2>دروس آموزشی</h2>
+<div class="cards">
+<div class="card">
+<h3>ریاضیات</h3>
+<p>استاد: مهدیه کریمی</p>
+</div>
+<div class="card">
+<h3>علوم</h3>
+<p>استاد: سهیلا یگانه</p>
+</div>
+</div>
+</section>
+
+<section id="teachers">
+<h2>اساتید آموزشگاه</h2>
+<div class="cards">
+<div class="card">
+<h3>مهدیه کریمی</h3>
+<p>مدرس ریاضیات</p>
+</div>
+<div class="card">
+<h3>سهیلا یگانه</h3>
+<p>مدرس علوم</p>
+</div>
+</div>
+</section>
+
+<section id="notices">
+<h2>اطلاعیه‌ها</h2>
+<div class="cards">
+<div class="card">
+<h3>ثبت‌نام دوره‌های آموزشی</h3>
+<p>ثبت‌نام دوره‌های آموزشی آموزشگاه شفق آغاز شد.</p>
+</div>
+</div>
+</section>
+
+<section id="register">
+<h2>ثبت‌نام</h2>
+<div class="hero">
+<p>برای ثبت‌نام در دوره‌های آموزشی، اطلاعات خود را ارسال کنید.</p>
+<a class="button" href="mailto:example@example.com">درخواست ثبت‌نام</a>
+</div>
+</section>
+
+</div>
+
+<footer>
+آموزشگاه شفق<br>
+آموزش، رشد و آینده‌ای روشن
+</footer>
+
+</body>
+</html>
